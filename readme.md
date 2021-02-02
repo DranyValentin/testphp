@@ -1,0 +1,1 @@
+You should configure DB. File you can find in '../includes/db/DB.php'.

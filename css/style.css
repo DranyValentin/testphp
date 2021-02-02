@@ -64,6 +64,7 @@
 
 .card__text {
   text-align: center;
+  font-size: 12px;
 }
 
 .card__button {
@@ -113,6 +114,7 @@
   
   margin: 0 auto;
   margin-bottom: 16px;
+  margin-top: 10px;
 }
 
 @media (max-width: 415px) {
@@ -133,7 +135,7 @@
   }
 
   .card__category {
-    width: 90px;
+    width: 100px;
   }
 
   .card__actions {

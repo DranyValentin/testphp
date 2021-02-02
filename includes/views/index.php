@@ -16,9 +16,12 @@
         <div class="card__image" style="background-image: url('../images/pic_<?php echo $i; ?>.jpg')"></div>
         <div class="card__description">
           <h3 class="card__title">Title <?php echo $i; ?></h3>
-          <p class="card__text">Desc <?php echo $i; ?></p>
+          <p class="card__text">100% Up to 100 + $1500 + 150 Zee Spins + 500 Zee Points<?php echo $i; ?></p>
         </div>
-        <button type="button" data-id="<?php echo $i; ?>" class="card__button">Play</button>
+        <div class="card__actions">
+          <div class="card__stars" style="background-image: url('../images/stars.jpg')"></div>
+          <button type="button" data-id="<?php echo $i; ?>" class="card__button">Play</button>
+        </div>
       </div>
     </div>
     <?php } ?>
